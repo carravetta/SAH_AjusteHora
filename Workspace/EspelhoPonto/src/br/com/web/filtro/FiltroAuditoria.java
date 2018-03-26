@@ -31,7 +31,7 @@ public class FiltroAuditoria implements Filter{
 		
 		String usuario = getUsuarioLogado(req);
 		
-		System.out.println("Pagina acessando: " + uri);
+		System.out.println("usuario logado: " + usuario);
 		
 		//if(!usuario.equals(deslogado)){
 			chain.doFilter(request, response);
@@ -48,8 +48,11 @@ public class FiltroAuditoria implements Filter{
 		for(Cookie cookie : cookies){
 			if(cookie.getName().equals("usuario.logado")){
 				usuario = cookie.getValue();
+				return usuario;
 			}
 		}
+		
+		
 		
 		return usuario;
 	}

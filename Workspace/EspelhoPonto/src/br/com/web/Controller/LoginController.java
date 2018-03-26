@@ -2,6 +2,7 @@ package br.com.web.Controller;
 
 import java.io.IOException;
 
+import javax.jws.WebMethod;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
@@ -27,7 +28,8 @@ public class LoginController extends HttpServlet{
 		for(Usuario user : usuarioDao.usuariosPermissao()){
 			if(email != null && senha != null && user.getEmail().equals(email) && user.getSenha().equals(senha)){
 				autorizado = true;
-				Cookie cookie = new Cookie("usuario.logado", "email");
+				Cookie cookie = new Cookie("usuario.logado", user.getNome());
+				cookie.setMaxAge(60*5);
 				resp.addCookie(cookie);
 				break;
 			}
@@ -36,7 +38,6 @@ public class LoginController extends HttpServlet{
 		if(autorizado){
 		
 		}
-		
 	}
 	
 }
