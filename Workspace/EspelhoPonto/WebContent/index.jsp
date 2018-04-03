@@ -7,7 +7,7 @@
     <form action="login" method="Post">
 	    Email: <input type="text" name="email" required="true"/><br />
 	    senha: <input type="password" name="senha" required="true"/><br />
-	    <input type="submit" value="Enviar"/>
+	    <input type="submit" style="background-color: red" value="Enviar"/>
     </form>
      <form action="logout" method="Post">
 	    <input type="submit" value="Sair"/>
