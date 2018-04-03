@@ -27,15 +27,10 @@ public class FiltroAuditoria implements Filter{
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
 			throws IOException, ServletException {
 		HttpServletRequest req = (HttpServletRequest) request;
-		String uri = req.getRequestURI();
-		
 		String usuario = getUsuarioLogado(req);
 		
 		System.out.println("usuario logado: " + usuario);
 		
-		//if(!usuario.equals(deslogado)){
-			chain.doFilter(request, response);
-		//}
 	}
 	
 	private String getUsuarioLogado(HttpServletRequest req){
@@ -46,7 +41,7 @@ public class FiltroAuditoria implements Filter{
 			return usuario;
 		}
 		for(Cookie cookie : cookies){
-			if(cookie.getName().equals("usuario.logado")){
+			if(cookie.getName().equals("usuarioLogado")){
 				usuario = cookie.getValue();
 				return usuario;
 			}
