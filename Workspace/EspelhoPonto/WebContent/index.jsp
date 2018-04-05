@@ -77,7 +77,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		
 		<!-- copyright -->
 		<div class="copyright">
-			<p style="background-color: #0a3152de"> © 2018 Unisinos - Gerência da Configuração de Software | Desenvolvido por <a href="https://www.facebook.com/caiodias.sl" target="_blank">Jael Cruel</a></p>
+			<p style="background-color: #0a3152de"> © 2018 Unisinos - Gerência da Configuração de Software | Desenvolvido por <a href="https://www.torcedores.com/content/uploads/2017/01/32242282892_a60ca8579f_k.jpg" target="_blank">Jael Cruel</a></p>
 		</div>
 		<!-- //copyright --> 
 	</div>	
