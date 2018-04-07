@@ -2,10 +2,10 @@
 ### SAH - Sistema de Ajuste de Horas ###
 ### Introdução ###  
 
-    Uma empresa educacional demanda de uma serie de processos para ajuste de folha ponto de funcionários que prestam serviços
-    educacionais fora da intituição, podendo estes ser emprestados para outras unidades desta instituição para dar palestras, realizar a
-    produção ou versionamento de conteúdos, podem participar de capacitações e realizar consultorias que podem ser feitas fora da
-    instituição.
+ Uma empresa educacional demanda de uma serie de processos para ajuste de folha ponto de funcionários que prestam serviços
+ educacionais fora da intituição, podendo estes ser emprestados para outras unidades desta instituição para dar palestras, realizar a         
+ produção ou versionamento de conteúdos, podem participar de capacitações e realizar consultorias que podem ser feitas fora da
+ instituição.
 
     Sendo assim essas horas são lançadas em planilha impressa a qual é verificada pelas coordenações para averiguar a quantidade de
     horas realizadas fora da instituição, qual a natureza da atividade e se não excedeu ao total de horas determinadas para cada
