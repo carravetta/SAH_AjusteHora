@@ -49,6 +49,18 @@
 - Tutorial de como instalar o Maven, no trecho [instalando o Maven](http://luizricardo.org/2014/06/instalando-configurando-e-usando-o-maven-para-gerenciar-suas-dependencias-e-seus-projetos-java/)
  - [Tomcat Apache 8.5](https://tomcat.apache.org/download-80.cgi)
  
+ ### Branches ###
+ 
+ - **Desenvolvimento**
+   - Será utilizada durante o processo de desenvolvimento do projeto, conterá todos arquivos não estaveis.
+- **Principal**
+   - Branch utilizada para manter os arquivos em baseline 
+   
+ ### Baselines ###
+ 
+ - **Um arquivo será aceito como estavél após aprovação da equipe de desenvolvimento e do analista de requisitos**
+   - As aprovações serão feitas através do waffle
+ 
  ### Andamento dos Processos ###
  
  - **As tarefas podem ser encontradas no [waffle.io](https://waffle.io/carravetta/SAH_AjusteHora)**
