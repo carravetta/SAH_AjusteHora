@@ -6,13 +6,11 @@
  educacionais fora da intituição, podendo estes ser emprestados para outras unidades desta instituição para dar palestras, realizar a         
  produção ou versionamento de conteúdos, podem participar de capacitações e realizar consultorias que podem ser feitas fora da
  instituição.
-
-    Sendo assim essas horas são lançadas em planilha impressa a qual é verificada pelas coordenações para averiguar a quantidade de
-    horas realizadas fora da instituição, qual a natureza da atividade e se não excedeu ao total de horas determinadas para cada
-    trabalhador.
-    
-    Neste documento estarão descritas a seguir o objetivo da atividade, o cronograma etc. Complementarmente serão disponibilizados os
-    documentos sobre o produto (protótipos-wireframes, regras de negócio e casos de uso).
+ Sendo assim essas horas são lançadas em planilha impressa a qual é verificada pelas coordenações para averiguar a quantidade de
+ horas realizadas fora da instituição, qual a natureza da atividade e se não excedeu ao total de horas determinadas para cada
+ trabalhador.
+ Neste documento estarão descritas a seguir o objetivo da atividade, o cronograma etc. Complementarmente serão disponibilizados os
+ documentos sobre o produto (protótipos-wireframes, regras de negócio e casos de uso).
 
 ### Objetivos ###
 
