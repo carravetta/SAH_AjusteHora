@@ -49,3 +49,6 @@
 - Tutorial de como instalar o Maven, no trecho [instalando o Maven](http://luizricardo.org/2014/06/instalando-configurando-e-usando-o-maven-para-gerenciar-suas-dependencias-e-seus-projetos-java/)
  - [Tomcat Apache 8.5](https://tomcat.apache.org/download-80.cgi)
  
+ ### Andamento dos Processos ###
+ 
+ - **As tarefas podem ser encontradas no [waffle.io](https://waffle.io/carravetta/SAH_AjusteHora)**
