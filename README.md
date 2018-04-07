@@ -2,11 +2,17 @@
 ### SAH - Sistema de Ajuste de Horas ###
 ### Introdução ###  
 
-    Uma empresa educacional demanda de uma serie de processos para ajuste de folha ponto de funcionários que prestam serviços educacionais fora da intituição, podendo estes ser emprestados para outras unidades desta instituição para dar palestras, realizar a produção ou versionamento de conteúdos, podem participar de capacitações e realizar consultorias que podem ser feitas fora da instituição.
+    Uma empresa educacional demanda de uma serie de processos para ajuste de folha ponto de funcionários que prestam serviços
+    educacionais fora da intituição, podendo estes ser emprestados para outras unidades desta instituição para dar palestras, realizar a
+    produção ou versionamento de conteúdos, podem participar de capacitações e realizar consultorias que podem ser feitas fora da
+    instituição.
 
-    Sendo assim essas horas são lançadas em planilha impressa a qual é verificada pelas coordenações para averiguar a quantidade de horas realizadas fora da instituição, qual a natureza da atividade e se não excedeu ao total de horas determinadas para cada trabalhador.
+    Sendo assim essas horas são lançadas em planilha impressa a qual é verificada pelas coordenações para averiguar a quantidade de
+    horas realizadas fora da instituição, qual a natureza da atividade e se não excedeu ao total de horas determinadas para cada
+    trabalhador.
     
-	Neste documento estarão descritas a seguir o objetivo da atividade, o cronograma etc. Complementarmente serão disponibilizados os documentos sobre o produto (protótipos-wireframes, regras de negócio e casos de uso).
+    Neste documento estarão descritas a seguir o objetivo da atividade, o cronograma etc. Complementarmente serão disponibilizados os
+    documentos sobre o produto (protótipos-wireframes, regras de negócio e casos de uso).
 
 ### Objetivos ###
 
@@ -39,9 +45,9 @@
 
 ### Ferramentas necessarias para desenvolvimento/Testes ###
 
-- **[Java Develpment Kit](http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html)
-- **[IDE Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygen3)
-- **[Maven](http://maven.apache.org/download.cgi)
- - Aqui tem um pequeno tutorial de como instalar o Maven, no trecho [instalando o Maven](http://luizricardo.org/2014/06/instalando-configurando-e-usando-o-maven-para-gerenciar-suas-dependencias-e-seus-projetos-java/)
- - **[Tomcat Apache 8.5](https://tomcat.apache.org/download-80.cgi)
+- [Java Develpment Kit](http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html)
+- [IDE Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygen3)
+- [Maven](http://maven.apache.org/download.cgi)
+- Tutorial de como instalar o Maven, no trecho [instalando o Maven](http://luizricardo.org/2014/06/instalando-configurando-e-usando-o-maven-para-gerenciar-suas-dependencias-e-seus-projetos-java/)
+ - [Tomcat Apache 8.5](https://tomcat.apache.org/download-80.cgi)
  
