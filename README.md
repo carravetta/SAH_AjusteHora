@@ -27,6 +27,28 @@
    - **Manter horas ajustadas (trabalhador)**
    - **Cada trabalhador terá acesso a um tipo de perfil**
    
+### Papel Responsavél ###
+- **Gerente de Configuração:**
+  - Lucas Carravetta
+- **Analista de Requisitos:**
+  - Ananda Azevedo
+- **Equipe de Desenvolvimento:**
+  - Caio Dias
+  - Fernando Buonocore
+  - Lucas França
+ - **Tester:**
+   - Ananda Azevedo
+   
+### Processo de Desenvolvimento ###
+ - **Em desenvolvimento:**
+   - Será considerado em desenvolvimento todos artefatos que ainda não tenham sido testados e aprovados pela equipe de desenvolvimento e pelo analista;
+ - **Pronto para teste:**
+   - Estará disponível para teste o artefato que tenha passado por todos testes unitários, realizados pelos desenvolvedores;
+  - **Em teste:**
+    - Todo artefato aprovado pelos desenvolvedores derverão ser testado pelo analista
+  - **Pronto:**
+    - Todo artefato que tenha sido aprovado pelos desenvolvedores e pelo analista
+   
    ### Cronograma ###
    
   - **Elaboração da pagina HTML com estilo CSS**
