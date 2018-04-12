@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Espelho Ponto do Funcionário</title>
+<title>Espelho Ponto do FuncionÃ¡rio</title>
 	<!-- Meta-Tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -36,7 +36,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <body>
 	<!-- main -->
 	<div class="main">
-		<h1 style="font-weight: bold">Ajuste Cartão Ponto</h1>
+		<h1 style="font-weight: bold">Ajuste CartÃ£o Ponto</h1>
 		<div class="main-w3lsrow">
 			<!-- login form -->
 			<div class="login-form login-form-left"> 
@@ -47,7 +47,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>					
 					<div class="clear"></div>
 					<div class="login-agileits-top"> 	
-						<form action="adicionarAjuste" method="post"> 
+						<form action="login" method="post"> 
 							<input type="text" class="name" name="user name" Placeholder="Informe seu Email" required="true"/>
 							<input type="password" class="password" name="Password" Placeholder="Senha" required="true"/>
 							<input type="submit" value="Enviar"> 
@@ -77,7 +77,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		
 		<!-- copyright -->
 		<div class="copyright">
-			<p style="background-color: #0a3152de"> © 2018 Unisinos - Gerência da Configuração de Software | Desenvolvido por <a href="https://www.torcedores.com/content/uploads/2017/01/32242282892_a60ca8579f_k.jpg" target="_blank">Jael Cruel</a></p>
+			<p style="background-color: #0a3152de"> Â© 2018 Unisinos - GerÃªncia da ConfiguraÃ§Ã£o de Software | Desenvolvido por <a href="https://www.torcedores.com/content/uploads/2017/01/32242282892_a60ca8579f_k.jpg" target="_blank">Jael Cruel</a></p>
 		</div>
 		<!-- //copyright --> 
 	</div>	
