@@ -1,8 +1,0 @@
-br\com\dao\UsuarioDao.class
-br\com\entities\Usuario.class
-br\com\util\UsuarioLogado.class
-br\com\web\Controller\Logout.class
-br\com\web\filtro\FiltroAuditoria.class
-br\com\web\Controller\LoginController.class
-br\com\web\Controller\AdicionarController.class
-br\com\web\Controller\EspelhoPontoController.class
