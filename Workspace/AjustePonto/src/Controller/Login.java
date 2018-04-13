@@ -54,7 +54,7 @@ public class Login extends HttpServlet{
 			}
 		}else{
 			HttpSession session = req.getSession();
-			session.putValue("usuarioLogado", "Usuario e senha incorretos!");
+			session.setAttribute("usuarioLogado", "\nUsuario e senha incorretos!");
 			RequestDispatcher dispatcher = req.getRequestDispatcher("index.jsp");
 			dispatcher.forward(req, resp);
 		}
