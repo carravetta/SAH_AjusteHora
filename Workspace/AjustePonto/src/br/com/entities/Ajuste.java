@@ -14,10 +14,9 @@ public class Ajuste {
 	private String justificativa;
 	private StatusEnum status;
 	
-	public Ajuste(Integer id, Usuario usuario, Date data, Date horaInicial, Date horaFinal, String justificativa,
+	public Ajuste(Usuario usuario, Date data, Date horaInicial, Date horaFinal, String justificativa,
 			StatusEnum status) {
 		super();
-		this.id = id;
 		this.usuario = usuario;
 		this.data = data;
 		this.horaInicial = horaInicial;

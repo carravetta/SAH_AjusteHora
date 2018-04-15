@@ -52,12 +52,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<input type="password" class="password" name="senha" Placeholder="Senha" required="true"/>
 							<input type="submit" value="Enviar"> 
 						</form> 	
+						
 					</div> 
-					
-					
-					
 					<div class="login-agileits-bottom"> 
-					${usuarioLogado}
 						<h6><a>Esqueceu sua senha? Contate o RH.</a></h6>
 					</div> 
 

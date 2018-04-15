@@ -9,6 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import br.com.dao.AjustesDao;
+
 @WebServlet(urlPatterns = "/dashBoard")
 public class DashBoard extends HttpServlet{
 
@@ -18,5 +20,4 @@ public class DashBoard extends HttpServlet{
 		RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/paginas/adicionaAjuste.jsp");
 		dispatcher.forward(req, resp);
 	}
-	
 }

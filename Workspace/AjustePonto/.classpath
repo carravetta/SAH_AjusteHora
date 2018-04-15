@@ -17,5 +17,7 @@
 	<classpathentry kind="lib" path="C:/Users/fernando.buonocore/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"/>
 	<classpathentry kind="lib" path="C:/Users/fernando.buonocore/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/fernando.buonocore/.m2/repository/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fernando.buonocore/Desktop/Servlets-Fundamentos-de-Java-na-Web-46b8a8f4a853879b701801082b9ab247357f133b/WebContent/WEB-INF/lib/xstream-1.4.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fernando.buonocore/Downloads/standard-2.2.0.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

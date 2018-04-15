@@ -29,7 +29,7 @@ public class Login extends HttpServlet{
 		
 		UsuarioLogado logado = new UsuarioLogado();
 		
-		for(Usuario user : usuarioDao.usuariosPermissao()){
+		for(Usuario user : usuarioDao.buscaUsuarios()){
 			if(email != null && senha != null && user.getEmail().equals(email) && user.getSenha().equals(senha)){
 				Cookie cookie = new Cookie("usuarioLogado", user.getNome());
 				cookie.setMaxAge(60*5);
@@ -45,7 +45,7 @@ public class Login extends HttpServlet{
 			HttpSession session = req.getSession();
 		    session.putValue("usuarioLogado", logado.getCookie().getValue());
 			if(logado.getUsuario().getPerfil().equals(PerfilEnum.Trabalhador)){
-				//Assim redireciona para outra pagina html
+				//Assim redireciona para outra pagina
 				RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/paginas/dashBoard.jsp");
 				dispatcher.forward(req, resp);
 			}else{
@@ -54,7 +54,7 @@ public class Login extends HttpServlet{
 			}
 		}else{
 			HttpSession session = req.getSession();
-			session.setAttribute("usuarioLogado", "\nUsuario e senha incorretos!");
+			session.putValue("usuarioLogado", "Usuario e senha incorretos!");
 			RequestDispatcher dispatcher = req.getRequestDispatcher("index.jsp");
 			dispatcher.forward(req, resp);
 		}
