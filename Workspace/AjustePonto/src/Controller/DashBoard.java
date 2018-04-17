@@ -9,7 +9,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import br.com.dao.AjustesDao;
+/*
+ * Fernando Buonocore
+ */
 
 @WebServlet(urlPatterns = "/dashBoard")
 public class DashBoard extends HttpServlet{

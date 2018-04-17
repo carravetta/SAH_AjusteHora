@@ -16,6 +16,10 @@ import br.com.dao.UsuarioDao;
 import br.com.entities.Usuario;
 import br.com.util.UsuarioLogado;
 
+/*
+ * Fernando Buonocore
+ */
+
 @WebServlet(urlPatterns = "/login")
 public class Login extends HttpServlet{
 

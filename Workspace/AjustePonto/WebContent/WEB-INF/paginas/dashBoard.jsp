@@ -11,6 +11,7 @@
 			    <th>Data Final</th>
 			    <th>Justificativa</th>
 			    <th>Status</th>
+			    <th>ID</th>
 			  </tr>
 		        <c:forEach items="${ajustes}" var="ajuste">
 		        	<tr>
@@ -20,6 +21,7 @@
 					    <td>${ajuste.horaFinal}</td>
 					    <td>${ajuste.justificativa}</td>
 					    <td>${ajuste.status}</td>
+					    <td>${ajuste.id}</td>
 					</tr>
 		        </c:forEach>
 		        
@@ -29,6 +31,11 @@
 		<form action="dashBoard" method="post"> 
 			<input type="submit" value="NOVO AJUSTE"> 
 		</form> 
+		
+		<form   action="aprovarAjuste" method="post">
+			ID do Ajuste para Aprovar/Reprovar: <input type="number" name="ajusteAprovar" required="true"/>
+			<input type="submit" value="APROVAR/REPROVAR"> 
+		</form>
 		
 		<form action="logout" method="post"> 
 			<input type="submit" value="SAIR"> 

@@ -51,4 +51,27 @@ public class AjustesDao {
 		}
 		return ajustes;
 	}
+	
+	public Ajuste buscaAjusteId(Integer id){
+		for (Ajuste ajuste : AJUSTES.values()) {
+			if (ajuste.getId().equals(id)){
+				return  ajuste;
+			}
+		}
+		return null;
+	}
+	
+	public void aprovaReprova(boolean aprova, Ajuste ajuste){
+		if(aprova){
+			if(ajuste.getStatus().equals(StatusEnum.Novo)){
+				ajuste.setStatus(StatusEnum.AguardandoAprovacaoN1);
+			}else if(ajuste.getStatus().equals(StatusEnum.AguardandoAprovacaoN1)){
+				ajuste.setStatus(StatusEnum.AguardandoAprovacaoN2);
+			}else if(ajuste.getStatus().equals(StatusEnum.AguardandoAprovacaoN2)){
+				ajuste.setStatus(StatusEnum.Aprovado);
+			}
+		}else{
+			ajuste.setStatus(StatusEnum.Rejeitado);
+		}
+	}
 }

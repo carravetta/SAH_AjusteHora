@@ -13,6 +13,10 @@ import javax.servlet.http.HttpServletResponse;
 import br.com.dao.AjustesDao;
 import br.com.dao.UsuarioDao;
 
+/*
+ * Fernando Buonocore
+ */
+
 @WebServlet(urlPatterns = "/escolherPerfil")
 public class EscolherPerfil extends HttpServlet{
 
@@ -30,12 +34,13 @@ public class EscolherPerfil extends HttpServlet{
 					nomeTrabalhador = cookie.getValue();
 				}
 			}
-			
+			req.setAttribute("aprovar", false);
 			req.setAttribute("ajustes",new AjustesDao()
 	                .buscaAjusteUsuario(nomeTrabalhador));
 			RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/paginas/dashBoard.jsp");
 			dispatcher.forward(req, resp);
 		}else{
+			req.setAttribute("aprovar", true);
 			req.setAttribute("ajustes",new AjustesDao()
 	                .buscaAjustes());
 			RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/paginas/dashBoard.jsp");

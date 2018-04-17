@@ -13,6 +13,10 @@ import javax.servlet.http.HttpSession;
 
 import br.com.util.UsuarioLogado;
 
+/*
+ * Fernando Buonocore
+ */
+
 @WebServlet(urlPatterns = "/logout")
 public class Logout extends HttpServlet{
 

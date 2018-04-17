@@ -77,7 +77,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		
 		<!-- copyright -->
 		<div class="copyright">
-			<p style="background-color: #0a3152de"> © 2018 Unisinos - Gerência da Configuração de Software | Desenvolvido por <a href="https://www.facebook.com/caiodias.sl" target="_blank">Caio Dias</a></p>
+			<p style="background-color: #0a3152de"> © 2018 Unisinos - Gerência da Configuração de Software | Desenvolvido por Team Liders</a></p>
 		</div>
 		<!-- //copyright --> 
 	</div>	
