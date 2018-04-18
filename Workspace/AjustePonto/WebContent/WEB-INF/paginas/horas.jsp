@@ -25,7 +25,7 @@
 	    </ul>
 		
 
-		<form action="dashboard" method="post"> 
+		<form action="escolherPerfil" method="post"> 
 			<input type="submit" value="VOLTAR"> 
 		</form>			
 		
