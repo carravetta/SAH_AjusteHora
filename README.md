@@ -86,3 +86,17 @@
  ### Andamento dos Processos ###
  
  - **As tarefas podem ser encontradas no [waffle.io](https://waffle.io/carravetta/SAH_AjusteHora)**
+
+### Estagios ###
+
+- **Código**
+  - Desenvolvimento
+  - Testes unitários
+  - Teste de integração
+  - Aprovação
+  - Baseline
+  
+- **Documentos**
+  - Desenvolvimento
+  - Aprovação
+  - Baseline
