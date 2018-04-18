@@ -10,6 +10,7 @@ public class Usuario {
 	private String senha;
 	private PerfilEnum perfil;
 	
+	
 	public Usuario(String nome, String email, String senha, PerfilEnum perfil) {
 		super();
 		this.nome = nome;
