@@ -27,9 +27,11 @@
 		        
 	        </table>
 	    </ul>
-		
 		<form action="dashBoard" method="post"> 
 			<input type="submit" value="NOVO AJUSTE"> 
+		</form> 		
+		<form action="horas" method="post"> 
+			<input type="submit" value="VER PONTO"> 
 		</form> 
 		
 		<form   action="aprovarAjuste" method="post">

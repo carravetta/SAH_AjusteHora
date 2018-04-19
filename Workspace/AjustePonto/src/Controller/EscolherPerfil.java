@@ -27,7 +27,7 @@ public class EscolherPerfil extends HttpServlet{
 
 		String perfil = req.getParameter("ferfil");
 		
-		if(perfil.equals("TRABALHADOR")){
+		if(perfil != null && perfil.equals("TRABALHADOR")){
 			String nomeTrabalhador  = "";
 			for(Cookie cookie : req.getCookies()){
 				if(cookie.getName().equals("usuarioLogado") && cookie.getValue() != null){
